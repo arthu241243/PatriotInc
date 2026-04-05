@@ -528,7 +528,7 @@ public sealed partial class SunriseCCVars : CVars
     /// Имя пула задаётся в custom_loadout.pool
     /// </summary>
     public static readonly CVarDef<bool> CustomLoadoutEnabled =
-        CVarDef.Create("custom_loadout.enabled", true, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
+        CVarDef.Create("custom_loadout.enabled", false, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE); // Fire edit
 
     /// <summary>
     /// Имя кастомного пула loadout
@@ -581,7 +581,7 @@ public sealed partial class SunriseCCVars : CVars
     ///     This is an alternative to the large rolling arrivals shuttle.
     /// </summary>
     public static readonly CVarDef<bool> ArrivalsSingleShuttle =
-        CVarDef.Create("shuttle.arrivals_single_shuttle", true, CVar.SERVERONLY);
+        CVarDef.Create("shuttle.arrivals_single_shuttle", false, CVar.SERVERONLY); // Fire edit
 
     /// <summary>
     ///     The map to use for the single-person arrivals shuttle.
