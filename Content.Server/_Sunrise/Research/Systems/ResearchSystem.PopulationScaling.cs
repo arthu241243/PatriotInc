@@ -87,7 +87,7 @@ public sealed partial class ResearchSystem
                 points = (int) MathF.Round(points * modifier, MidpointRounding.AwayFromZero);
         }
 
-        ModifyServerPoints(uid, points, component);
+        //ModifyServerPoints(uid, points, component);
     }
 
     private void OnRoundStarted(RoundStartedEvent _)
