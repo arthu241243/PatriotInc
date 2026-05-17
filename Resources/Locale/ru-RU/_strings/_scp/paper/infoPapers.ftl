@@ -1,3 +1,23 @@
+ent-DocumentInfoScp035 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+ent-DocumentInfoScp049 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+ent-DocumentInfoScp079 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+ent-DocumentInfoScp082 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+ent-DocumentInfoScp096 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+ent-DocumentInfoScp106 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+ent-DocumentInfoScp173 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+ent-DocumentInfoScp247 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+ent-DocumentInfoScp457 = { ent-Paper }
+    .desc = { ent-Paper.desc }
+ent-DocumentInfoScp939 = { ent-Paper }
+    .desc = { ent-Paper.desc }
 
 info-paper-scp-035-content =
     Объект №: SCP-035

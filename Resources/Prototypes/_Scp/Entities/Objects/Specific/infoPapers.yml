@@ -2,13 +2,14 @@
   parent: Paper
   abstract: true
   id: BaseDocumentInfo
+  categories: [ HideSpawnMenu ]
   components:
   - type: Paper
     content: info-paper-scp-035-content
-    stampState: paper_stamp-greytide
+    stampState: paper_stamp-hos
     stampedBy:
-    - stampedColor: '#101426'
-      stampedName: stamp-component-stamped-name-administrator
+    - stampedColor: '#cc0000'
+      stampedName: stamp-component-stamped-name-regional-command
 
 - type: entity
   name: paper
