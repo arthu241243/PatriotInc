@@ -85,3 +85,104 @@
   components:
   - type: Sprite
     state: folder-black-white
+
+- type: entity
+  id: BaseSpawnInfoPaper
+  abstract: true
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Objects/Misc/bureaucracy.rsi
+        state: nano_paper_words
+
+- type: entity
+  name: info paper 035
+  id: SpawnInfoPaper035
+  parent: MarkerBase
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+      - DocumentInfoScp035
+
+- type: entity
+  name: info paper 049
+  id: SpawnInfoPaper049
+  parent: MarkerBase
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+      - DocumentInfoScp049
+
+- type: entity
+  name: info paper 079
+  id: SpawnInfoPaper079
+  parent: MarkerBase
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+      - DocumentInfoScp079
+
+- type: entity
+  name: info paper 082
+  id: SpawnInfoPaper082
+  parent: MarkerBase
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+      - DocumentInfoScp082
+
+- type: entity
+  name: info paper 096
+  id: SpawnInfoPaper096
+  parent: MarkerBase
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+      - DocumentInfoScp096
+
+- type: entity
+  name: info paper 106
+  id: SpawnInfoPaper106
+  parent: MarkerBase
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+      - DocumentInfoScp106
+
+- type: entity
+  name: info paper 173
+  id: SpawnInfoPaper173
+  parent: MarkerBase
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+      - DocumentInfoScp173
+
+- type: entity
+  name: info paper 247
+  id: SpawnInfoPaper247
+  parent: MarkerBase
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+      - DocumentInfoScp247
+
+- type: entity
+  name: info paper 457
+  id: SpawnInfoPaper457
+  parent: MarkerBase
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+      - DocumentInfoScp457
+
+- type: entity
+  name: info paper 939
+  id: SpawnInfoPaper939
+  parent: MarkerBase
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+      - DocumentInfoScp939
