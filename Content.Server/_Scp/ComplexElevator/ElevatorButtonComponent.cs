@@ -1,4 +1,7 @@
-namespace Content.Server._Scp.ComplexElevator;
+using Robust.Shared.GameStates;
+using Robust.Shared.Serialization;
+
+namespace Content.Shared._Scp.ComplexElevator;
 
 [RegisterComponent]
 public sealed partial class ElevatorButtonComponent : Component

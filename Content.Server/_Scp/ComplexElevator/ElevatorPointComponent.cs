@@ -1,6 +1,7 @@
 using Robust.Shared.GameStates;
+using Robust.Shared.Serialization;
 
-namespace Content.Server._Scp.ComplexElevator;
+namespace Content.Shared._Scp.ComplexElevator;
 
 [RegisterComponent]
 public sealed partial class ElevatorPointComponent : Component
